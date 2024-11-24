@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech</title>
+    <link rel="icon" href="k.jpeg">
+    <link rel="stylesheet" href="apply.css">
+</head>
+<body>
+    <div>
+        <div><%- include('./partials/header') %></div>
+        <center>
+        <form action="http://localhost:8080/sucess" method="post">
+            <label for="name">NAME :</label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" id="#name" placeholder="Enter your name" name="name"><br>
+            <label for="age">AGE  &nbsp;&nbsp;:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;<input type="text" id="#age" placeholder="Enter your Age" name="password"><br>
+            <label for="num">NUMBER :</label>
+            <input type="text" id="#num" placeholder="Enter your mobile number" name="number"><br>    
+            <label>Applying for :</label> 
+            <select name="role"> 
+                <option>Job</option>
+                <option>service </option>
+            </select><br> 
+            &nbsp;&nbsp; &nbsp;<input type="file" id="file" name="file">   <br>
+
+             <button type="submit" id="btn" > SUBMIT</button>
+        </form>
+    </center>
+        <div id="myfoot"><%- include('./partials/footer') %></div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,9 @@
+.nav-link{
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+}
+.nav-link:hover{
+    background-color: white;
+    color: black;
+}

@@ -1,0 +1,47 @@
+body {
+    background-image:linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(./servises.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+#ser{
+    background: url(./servises.jpg) no-repeat;
+    height: 350px;
+    padding: 30px;
+    width: 400px;
+    border: 1px solid black;
+    box-shadow: 7px 7px 10px gray;
+    text-align: center;
+    margin-top: 90px;
+
+}
+.item{
+    list-style: none;
+    margin: 15px;
+    font-size: 20px;
+    margin-left: 0px;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.item:hover{
+    background-color: blue;
+    color: white;
+}
+ul{
+    margin: 0px;
+}
+h1{
+    text-decoration: underline;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+    letter-spacing: 10px;
+    margin-left: 10px;
+}
+#con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

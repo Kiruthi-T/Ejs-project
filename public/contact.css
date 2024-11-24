@@ -1,0 +1,20 @@
+body {
+    background-image: url(./contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#contact {
+    height: 300px;
+    padding: 20px;
+    width: 400px;
+    border: 1px solid black;
+    box-shadow: 7px 7px 10px black;
+    text-align: center;
+    margin-top: 90px;
+}
+.fa-brands{
+    margin:0px 10px;
+}

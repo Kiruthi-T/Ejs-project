@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mydiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 10px gray;
+    height: 80vh;
+    background-image:linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(./home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+#div2{
+    background-color: white;
+    box-shadow: 10px 10px 10px gray;
+    padding: 30px;
+    margin: 10px;
+    width: 50%;
+}
+#div1{
+    background-color: white;
+    box-shadow: 10px 10px 10px gray;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+
+}
+@media screen and (max-width:990px) {
+    #mydiv{
+        flex-direction: column;
+        height: auto;
+    }
+    #div1{
+        margin-top: 100px;
+        width: 80%;
+    }
+    #div2{
+        width: 80%;
+        margin-bottom: 100px;
+
+    }
+}
