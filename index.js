@@ -1,6 +1,8 @@
 const express=require('express');
 const app=express();
 
+const PORT= process.env.PORT || 8080;
+
 app.set('view engine','ejs');
 
 app.use(express.static('public'))
@@ -36,4 +38,4 @@ app.post('/sucess',(req,res)=>{
     console.log("Someone is Applied");
 
 })
-app.listen(8080,()=>console.log("server is listening"))
+app.listen(PORT,()=>console.log("server is listening"))
